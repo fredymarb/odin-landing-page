@@ -59,15 +59,20 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
+.hero-container {
+    flex: 1;
+}
 
 .hero-image-container {
     /* background-color: lightgray; */
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
 }
 
 #hero-image {
+
     height: auto;
     width: 300px;
 }
@@ -110,6 +115,9 @@ a {
     font-size: 18px;
 }
 
+.info-card-container .card p {
+    text-align: center;
+}
 
 
 .quote-section {
@@ -117,10 +125,14 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5%;
 }
 
 .quote-phrase {
     margin: 16px 20%;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
 }
 
 .quote-author {
@@ -141,4 +153,13 @@ a {
 
 .cta-button {
     border: 1px solid white;
+}
+
+footer {
+    color: #E5E7EB;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
 }
