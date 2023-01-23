@@ -51,6 +51,10 @@ a {
     color: #F9FAF8;
 }
 
+.hero-main p {
+    margin: 0;
+}
+
 .hero-secondary, .header-links ul a{
     font-size: 18px;
     color: #E5E7EB;
@@ -71,4 +75,70 @@ a {
 .sign-up {
     padding: 8px 25px;
     background-color: #3882F6;
+}
+
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.info-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 15%;
+}
+
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+}
+
+
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-phrase {
+    margin: 16px 20%;
+}
+
+.quote-author {
+    margin: 16px 20%;
+    float: right;
+}
+
+.cta {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    margin: 8px 15%;
+    padding: 10px 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cta-button {
+    border: 1px solid white;
 }
